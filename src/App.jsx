@@ -13,11 +13,11 @@ const GlobalStyle = createGlobalStyle`
     background: #121f21;
   }
 `;
-
+// basename={'/komiks'}
 class App extends Component {
   render() {
     return (
-      <Router basename={'/komiks'}>
+      <Router>
         <GlobalStyle />
         <div>
           <Navigation />

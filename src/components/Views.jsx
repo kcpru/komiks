@@ -17,11 +17,11 @@ function Views() {
     <Main>
       <Switch>
         {data.map((el, index) => (
-          <Route key={index} path={`${process.env.PUBLIC_URL}/${index + 1}`}>
+          <Route key={index} path={`/${index + 1}`}>
             <Page text={el} index={index} />
           </Route>
         ))}
-        <Route path={`${process.env.PUBLIC_URL}/`}>
+        <Route path={`/`}>
           <Home />
         </Route>
       </Switch>
