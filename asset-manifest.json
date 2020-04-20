@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/komiks/static/js/main.9906dc93.chunk.js",
-    "main.js.map": "/komiks/static/js/main.9906dc93.chunk.js.map",
+    "main.js": "/komiks/static/js/main.2f540dbb.chunk.js",
+    "main.js.map": "/komiks/static/js/main.2f540dbb.chunk.js.map",
     "runtime-main.js": "/komiks/static/js/runtime-main.3685ba85.js",
     "runtime-main.js.map": "/komiks/static/js/runtime-main.3685ba85.js.map",
     "static/css/2.201f012b.chunk.css": "/komiks/static/css/2.201f012b.chunk.css",
-    "static/js/2.0e4077aa.chunk.js": "/komiks/static/js/2.0e4077aa.chunk.js",
-    "static/js/2.0e4077aa.chunk.js.map": "/komiks/static/js/2.0e4077aa.chunk.js.map",
+    "static/js/2.1edb1f1c.chunk.js": "/komiks/static/js/2.1edb1f1c.chunk.js",
+    "static/js/2.1edb1f1c.chunk.js.map": "/komiks/static/js/2.1edb1f1c.chunk.js.map",
     "index.html": "/komiks/index.html",
-    "precache-manifest.924da7d016973e874b1733249d64a401.js": "/komiks/precache-manifest.924da7d016973e874b1733249d64a401.js",
+    "precache-manifest.7c913051fe9e629e0708de6a04738d4c.js": "/komiks/precache-manifest.7c913051fe9e629e0708de6a04738d4c.js",
     "service-worker.js": "/komiks/service-worker.js",
     "static/css/2.201f012b.chunk.css.map": "/komiks/static/css/2.201f012b.chunk.css.map",
-    "static/js/2.0e4077aa.chunk.js.LICENSE.txt": "/komiks/static/js/2.0e4077aa.chunk.js.LICENSE.txt",
+    "static/js/2.1edb1f1c.chunk.js.LICENSE.txt": "/komiks/static/js/2.1edb1f1c.chunk.js.LICENSE.txt",
     "static/media/Strona_1.png": "/komiks/static/media/Strona_1.8e6c8d50.png",
     "static/media/Strona_10.png": "/komiks/static/media/Strona_10.82665759.png",
     "static/media/Strona_2.png": "/komiks/static/media/Strona_2.a37e5274.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.3685ba85.js",
     "static/css/2.201f012b.chunk.css",
-    "static/js/2.0e4077aa.chunk.js",
-    "static/js/main.9906dc93.chunk.js"
+    "static/js/2.1edb1f1c.chunk.js",
+    "static/js/main.2f540dbb.chunk.js"
   ]
 }
