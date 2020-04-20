@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/komiks/static/js/main.2f540dbb.chunk.js",
-    "main.js.map": "/komiks/static/js/main.2f540dbb.chunk.js.map",
+    "main.js": "/komiks/static/js/main.6481901a.chunk.js",
+    "main.js.map": "/komiks/static/js/main.6481901a.chunk.js.map",
     "runtime-main.js": "/komiks/static/js/runtime-main.3685ba85.js",
     "runtime-main.js.map": "/komiks/static/js/runtime-main.3685ba85.js.map",
     "static/css/2.201f012b.chunk.css": "/komiks/static/css/2.201f012b.chunk.css",
     "static/js/2.1edb1f1c.chunk.js": "/komiks/static/js/2.1edb1f1c.chunk.js",
     "static/js/2.1edb1f1c.chunk.js.map": "/komiks/static/js/2.1edb1f1c.chunk.js.map",
     "index.html": "/komiks/index.html",
-    "precache-manifest.7c913051fe9e629e0708de6a04738d4c.js": "/komiks/precache-manifest.7c913051fe9e629e0708de6a04738d4c.js",
+    "precache-manifest.0a95632ab341591d760f74f1aeb24908.js": "/komiks/precache-manifest.0a95632ab341591d760f74f1aeb24908.js",
     "service-worker.js": "/komiks/service-worker.js",
     "static/css/2.201f012b.chunk.css.map": "/komiks/static/css/2.201f012b.chunk.css.map",
     "static/js/2.1edb1f1c.chunk.js.LICENSE.txt": "/komiks/static/js/2.1edb1f1c.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.3685ba85.js",
     "static/css/2.201f012b.chunk.css",
     "static/js/2.1edb1f1c.chunk.js",
-    "static/js/main.2f540dbb.chunk.js"
+    "static/js/main.6481901a.chunk.js"
   ]
 }
