@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = styled.div`
@@ -14,7 +14,7 @@ const Nav = styled.div`
   z-index: 100;
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled(NavLink)`
   display: inline-block;
   min-width: 50px;
   height: 50px;
@@ -32,6 +32,7 @@ const StyledLink = styled(Link)`
   &:hover {
     background: #3b6368;
     color: white;
+    transform: scale(1.3);
   }
 `;
 
@@ -43,7 +44,7 @@ class Navigation extends React.Component {
       <Nav>
         <StyledLink to="/">0</StyledLink>
         {path.map((el, index) => (
-          <StyledLink to={`/${el}`} key={index}>
+          <StyledLink to={`/${el}`} key={index} activeClassName="selected">
             {el}
           </StyledLink>
         ))}

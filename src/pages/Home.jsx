@@ -31,6 +31,8 @@ const Home = () => (
       <br />
       <br />
       <small style={{fontSize: 30}}>Prawidłowo działa tylko na komputerze</small>
+      <br />
+      <small style={{fontSize: 20}}>Klawisz <b>F11</b> -> Dla lepszych wrażeń (pełny ekran)</small>
     </Text>
   </>
 );

@@ -3,6 +3,15 @@ import styled, { keyframes } from "styled-components";
 import { FaAngleDoubleUp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 
+const keyframeImg = keyframes`
+  0% {
+    transform: scale(0.9) translateX(-55%);
+  }
+  100% {
+    transform: scale(1) translateX(-50%);
+  }
+`;
+
 const Img = styled.img`
   height: 80vmin;
   box-shadow: 0 2rem 3rem #00000080;
@@ -14,6 +23,16 @@ const Img = styled.img`
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
+  animation: ${keyframeImg} 0.3s ease-in-out;
+`;
+
+const keyframeText = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 `;
 
 const WrapText = styled.div`
@@ -26,11 +45,12 @@ const WrapText = styled.div`
   justify-content: center;
   height: 100%;
   z-index: 0;
+  animation: ${keyframeText} 1s ease-in-out;
 `;
 
 const Text = styled.section`
   flex: 1;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.7rem;
   color: #ffffffaa;
   text-align: center;
@@ -57,7 +77,6 @@ const IconUp = styled(FaAngleDoubleUp)`
   position: absolute;
   top: 3rem;
   left: 48%;
-  /* transform: translateX(-50%); */
   animation: ${keyframeIconUp} 2.49s ease-in-out 1s;
 `;
 
