@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import { FaAngleDoubleUp } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
 
 const Img = styled.img`
   height: 80vmin;
@@ -61,6 +62,12 @@ const IconUp = styled(FaAngleDoubleUp)`
 `;
 
 function Page({ text, index }) {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <IconUp />
