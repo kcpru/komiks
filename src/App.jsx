@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 
 import Views from "./components/Views";
@@ -13,17 +13,17 @@ const GlobalStyle = createGlobalStyle`
     background: #121f21;
   }
 `;
-// basename={'/komiks'}
+
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <GlobalStyle />
         <div>
           <Navigation />
           <Views />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }

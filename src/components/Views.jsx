@@ -21,7 +21,7 @@ function Views() {
             <Page text={el} index={index} />
           </Route>
         ))}
-        <Route path={`/`}>
+        <Route path="/">
           <Home />
         </Route>
       </Switch>

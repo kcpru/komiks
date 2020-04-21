@@ -11,6 +11,7 @@ const Nav = styled.div`
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 100;
 `;
 
 const StyledLink = styled(Link)`
@@ -25,6 +26,7 @@ const StyledLink = styled(Link)`
   text-align: center;
   line-height: 3.2rem;
   font-weight: bold;
+  background-color: #3b636850;
   transition: 0.2s;
 
   &:hover {
